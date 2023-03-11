@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-@@include('html/head.html',{
-  "title":"Обучение"
-})
-<body>
-  <header class="header__anotherpage">
-    <div class="container">
-      <div class="header__dark">
-          <a class="header-logo" href="index.html">@@include('html/logolight.html')</a>
+  @@include('html/head.html',{ "title":"Обучение" })
+  <body>
+    <header class="header__anotherpage">
+      <div class="container">
+        <div class="header__dark">
+          <a class="header-logo" href="index.html"
+            >@@include('html/logolight.html')</a
+          >
           <div class="burger-menu-light">
             <span class="burger-line-light"></span>
           </div>
@@ -31,12 +31,9 @@
           <a class="btn__signup-light" href="index.html#record">Записаться</a>
         </div>
       </div>
-    
-  </header>
-  <main>
-    @@include('html/programmesPage/programmes.html',{})
-  </main>
-  @@include('html/footer.html',{})
-  <script src="js/app.min.js"></script>
-</body>
+    </header>
+    <main>@@include('html/programmesPage/programmes.html',{})</main>
+    @@include('html/footer.html',{})
+    <script src="js/app.min.js"></script>
+  </body>
 </html>
